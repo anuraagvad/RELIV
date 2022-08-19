@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+h1{
+    color: rgb(98, 98, 98);
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:20px;
+    font-weight:400;
+}
+
+p.inbutton{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    color:white;
+}
+
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.showreel2{
+        align-items: center;
+        background-color: rgb(255, 245, 181);
+        padding: 4px;
+        
+}
+.img1{
+background:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url("project1.jpg");
+height:300px;
+width: 400px;
+text-align:center;
+}
+
+.img2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url("project2.jpg");
+    z-index: 100;
+    height:300px;
+    width: 400px;
+    text-align:center;
+}
+
+.projecttext{
+    font-size:35px;
+    color: white;
+    padding: 140px 0 0 0;
+}
+
+.pagetitles{
+    color: rgb(98, 98, 98);
+    font-family:'rockwell';
+    text-align: center;
+    font-size: 50px;
+    background-color:rgb(249, 247, 235);
+}
+
+.level1button1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.30)),url("https://images.unsplash.com/photo-1561715276-a2d087060f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    padding:200px;
+    border-radius: 20px;
+    border:none;
+}
+
+.level1button2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.30)),url("https://images.unsplash.com/photo-1561503412-852800622772?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80");
+    background-size: cover;
+    padding:200px;
+    border-radius:20px;
+    border:none;
+}
+
+.level1button1:active{
+    box-shadow: 5px 5px 5px rgba(0, 45, 112,0.45);
+}
+
+.level1button2:active{
+    box-shadow: 5px 5px 5px rgba(3, 101, 0, 0.45);
+}
+
+table.level1table{
+    padding-top: 20px;   
+}
+
+h1.pageheading{
+    color: rgb(98, 98, 98);
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.grid{
+    list-style: none;
+    padding: 0;
+    overflow: auto;
+}
+
+button.optionplastic{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.30)),url("https://www.plasticsoupfoundation.org/wp-content/uploads/2018/01/recycled-plastic-bottles.jpg");
+    background-size: cover;
+    width:250px;
+    height: 250px;
+    border-radius: 20px;
+    border:none;
+}
+button.optionpaper{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.30)),url("https://recyclingworksma.com/wp-content/uploads/2012/02/Newspaper.jpg");
+    background-size: cover;
+    width:250px;
+    height: 250px;
+    border-radius: 20px;
+    border:none;
+}
+button.optionglass{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.30)),url("https://greatforest.com/wp-content/uploads/2019/03/lacey-williams-175638-unsplash-1024x595.jpg");
+    background-size: cover;
+    width:250px;
+    height: 250px;
+    border-radius: 20px;
+    border:none;
+}
+
+button.optionewaste{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.30)),url("https://wastematerial.in/wp-content/uploads/2020/12/Household-E-waste-1.jpg");
+    background-size: cover;
+    width:250px;
+    height: 250px;
+    border-radius: 20px;
+    border:none;
+}
