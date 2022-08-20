@@ -10,6 +10,11 @@
             body{
                 background-color: #e5e5e5;
             }
+            button:active{
+                background-image:linear-gradient(rgba(194, 226, 235, 0.445),rgba(0, 0, 0, 0.377));
+
+            }
+
         </style>
     </head>
 
@@ -17,13 +22,23 @@
         <h1 class="pageheading">Select the category of waste</h1>
         <table class="level1table">
             <tr>
-                <td><button class="optionplastic"><p style="font-size:30px; color: white;">plastic</p></button></td>
-                <td><button class="optionpaper"><p style="font-size:30px; color: white;">paper</p></button></td>
-                <td><button class="optionglass"><p style="font-size:30px; color: white;">glass</p></button></td>
+                <td><button class="optionplastic" id="plastic"><p style="font-size:30px; color: white;">plastic</p></button></td>
+                <td><button class="optionpaper" id="paper"><p style="font-size:30px; color: white;">paper</p></button></td>
+                <td><button class="optionglass" id="glass"><p style="font-size:30px; color: white;">glass</p></button></td>
             </tr>
-            <tr>
-                <td colspan="2"><button class="optionewaste"><p style="font-size:30px; color: white;">e-waste</p></button></td>
+            <tr >
+                <td colspan="3">
+                    <div align="center">
+
+                        <div class="inline"><button class="optionewaste" id="ewaste"><p style="font-size:30px; color: white;">e-waste</p></button></div>
+                        <div class="inline"><button class="optionbat" id="batt"><p style="font-size:30px; color: white;">batteries</p></p></button></div>
+                    </div>
+                </td>
             </tr>
         </table>
+        <div align="center" clas>
+            <button class="submit" id="submit"><p>submit</p></button>
+        </div>
     </body>
 </html>
+

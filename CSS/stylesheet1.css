@@ -132,3 +132,25 @@ button.optionewaste{
     border-radius: 20px;
     border:none;
 }
+
+button.optionbat{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.30)),url("https://images.newscientist.com/wp-content/uploads/2018/08/17151541/b8pj8p.jpg");
+    background-size: cover;
+    width:250px;
+    height: 250px;
+    border-radius: 20px;
+    border:none;
+}
+
+.inline{
+    display: inline-block;
+    padding:15px;
+}
+
+button.submit{
+    width:fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    border:none;
+}
