@@ -17,7 +17,16 @@ p.inbutton{
     font-size: 30px;
     color:white;
 }
-
+.form {
+    background-color: #f5f5f5;
+    position: relative;
+    z-index: 1;
+    max-width: 250px;
+    margin: 0 auto 50px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+  }
 table
 {
     margin-left: auto;
@@ -176,9 +185,25 @@ img.cartimage
 
 input[type="number"]
 {
-    border-radius: 20px;
+    border-radius: 15px;
     background-color:rgb(231, 231, 231) ;
     border-width:0;
+    height: 30px;
+}
+
+input[type="text"]
+{
+    border-radius: 15px;
+    background-color:rgb(231, 231, 231) ;
+    border-width:0;
+    height: 30px;
+}
+input[type="password"]
+{
+    border-radius: 15px;
+    background-color:rgb(231, 231, 231) ;
+    border-width:0;
+    height: 30px;
 }
 
 img.delete{
