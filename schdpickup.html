@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shipping Details</title>
+    <link rel="stylesheet" href="CSS/stylesheet1.css">
+</head>
+<body> 
+<h1 >Enter Shipping Details</h1>     
+<div class="bgcolor">
+    <form>
+    <div>
+    <table cellspacing="35px">
+        <tr>
+        <td><label for="name">Enter your name</label>
+        <input type="text" id="name" placeholder="Enter your Name" >
+        </td>
+        
+        <td>
+        <label for="city">Enter your phone number<label>
+        <input type="text" id="phno" placeholder="Ex 9555443765" size ="10">
+        </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="address">Enter your Address</label>
+                <input type="text" id="address" placeholder="8 Sastri Nagar">
+            </td>
+            <td>
+                <label for="city">Enter your city </label>
+                <input type="text" id="city" placeholder="Ex Chennai">
+            </td>
+            <td>
+                <label for="state">Enter your State </label>
+                <input type="text" id="state" placeholder="Ex Kerala">
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                Enter 6 digit pincode
+                <input type="text" id="pin" placeholder="Ex 600021" size="6" ><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>Enter preferred delivery type:</b> 
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+
+                <input type="radio" id="work" name="locationtype">
+                <label for="work">Work (9AM-5PM)</label>
+                
+            </td>
+            <td>
+                <input type="radio" id="home" name="locationtype">
+                <label for="home">Home(8AM-7PM)</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>Prefrred payment type</b>
+            </td>
+        </tr>
+        <tr>    
+            <td>
+                <input type="radio" id="cash" name="payment">
+                <label for="cash">Cash on delivery</label>
+            
+            </td>
+            <td>
+                <input type="radio" id="credit" name="payment">
+                <label for="credit">Credit Card</label>
+            </td>
+            <td>
+                <input type="radio" id="net" name="payment">
+                <label for="net">Net Banking</label>
+            </td>
+        </tr>
+    </table>
+    <div class="centeritems">
+        <button class="submit" align="center"><p>Confirm Pickup</p></button>    
+    </div>
+</form>
+</div>
+
+</body>
+</html>
