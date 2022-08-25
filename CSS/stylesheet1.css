@@ -154,3 +154,55 @@ button.submit{
     border-radius: 20px;
     border:none;
 }
+
+div.itemdetails
+{
+    margin: auto;
+	width: 90%;
+	height: 30%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding-bottom: 5px;
+}
+
+img.cartimage
+{
+    height:150px;
+    width:150px;
+    object-fit: cover;
+    border-radius:20px;
+}
+
+input[type="number"]
+{
+    border-radius: 20px;
+    background-color:rgb(231, 231, 231) ;
+    border-width:0;
+}
+
+img.delete{
+    height: 50px;
+    width: 50px;
+    border:none; 
+    object-fit: cover;
+}
+
+button.delete{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-width: 0;
+    border-radius:100px;
+}
+
+button:active
+{
+    box-shadow: 5px 5px 5px rgba(225, 225, 225, 0.45);
+}
+
+div.centeritems
+{
+    display: flex;
+    justify-content: center;
+}
