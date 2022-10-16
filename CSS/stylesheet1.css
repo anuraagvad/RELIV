@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
-
-
 h1{
     color: rgb(98, 98, 98);
     font-family: 'Roboto Condensed', sans-serif;
@@ -191,6 +189,7 @@ button.submit{
     border-radius: 20px;
     border:none;
 }
+
 button.submitalt{
     width:fit-content;
     padding-left: 15px;
@@ -246,15 +245,17 @@ input[type="password"]
     height: 30px;
 }
 
-input[type="submit"]
+input[type=submit]
 {
     width:fit-content;
     position: relative;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding:20px;
     border-radius: 20px;
-    border:none;    
+    border:none;
+    font-size: 15px;
+    margin: 10px;
 }
+
 
 img.delete{
     height: 50px;
