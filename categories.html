@@ -8,37 +8,61 @@
                 padding: 15px;
             }
             body{
-                background-color: #e5e5e5;
+                background-color: #ffffff;
             }
             button:active{
-                background-image:linear-gradient(rgba(194, 226, 235, 0.445),rgba(0, 0, 0, 0.377));
-
+                background-image:linear-gradient(rgba(87, 173, 7, 0.201),rgba(87, 173, 7, 0.201));
             }
-
         </style>
     </head>
-
     <body>
         <h1 class="pageheading">Select the category of waste</h1>
-        <table class="level1table">
-            <tr>
-                <td><button class="optionplastic" id="plastic"><p style="font-size:30px; color: white;">plastic</p></button></td>
-                <td><button class="optionpaper" id="paper"><p style="font-size:30px; color: white;">paper</p></button></td>
-                <td><button class="optionglass" id="glass"><p style="font-size:30px; color: white;">glass</p></button></td>
-            </tr>
-            <tr >
-                <td colspan="3">
-                    <div align="center">
+        
+        <form name="pickupoptions" action="PHP/pickupcart.php" method="post">
+            <table class="level1table">
+                <tr>
+                    <td>
+                        <input type="checkbox" name="option[]" value="plasticcb" style="opacity:1; position:absolute;">
+                            
+                                <p style="font-size:30px; color: rgb(0, 0, 0);">plastic</p>
+                            
+                    </td>
+                    <td>
+                        <input type="checkbox" name="option[]" value="papercb" style="opacity:1; position:absolute;">
+                            
+                                <p style="font-size:30px; color: rgb(0, 0, 0);">paper</p>
+                            
+                        
+                    </td>
+                    <td>
+                        <input type="checkbox" name="option[]" value="glasscb" style="opacity:1 ; position:absolute;">
+                            
+                                <p style="font-size:30px; color: rgb(0, 0, 0);">glass</p>
+                            
+                    </td>
+                </tr>
+                <tr >
+                    <td colspan="3">
+                        <div align="center">
+                            <div class="inline">
+                                <input type="checkbox" name="option[]" value="ewastecb" style="opacity:1 ; position:absolute;">
+                                    
+                                        <p style="font-size:30px; color: rgb(0, 0, 0);">e-waste</p>
+                                    
+                            </div>
+                            <div class="inline">
+                                <input type="checkbox" name="option[]" value="battcb" style="opacity:1 ; position:absolute;">
+                                    
+                                        <p style="font-size:30px; color: rgb(0, 0, 0);">batteries</p></p>
 
-                        <div class="inline"><button class="optionewaste" id="ewaste"><p style="font-size:30px; color: white;">e-waste</p></button></div>
-                        <div class="inline"><button class="optionbat" id="batt"><p style="font-size:30px; color: white;">batteries</p></p></button></div>
-                    </div>
-                </td>
-            </tr>
-        </table>
-        <div align="center" clas>
-            <button class="submit" id="submit"><p>submit</p></button>
-        </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div align="center" >
+                <input type="submit" id="submit" value="Proceed" name="proceed">
+            </div>
+        </form>
     </body>
 </html>
-

@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Shipping Details</title>
-    <link rel="stylesheet" href="CSS/stylesheet1.css">
+    <link rel="stylesheet" href="../CSS/stylesheet1.css">
 </head>
 <body> 
 <h1 >Enter Shipping Details</h1>     
@@ -12,34 +12,34 @@
     <table cellspacing="35px">
         <tr>
         <td><label for="name">Enter your name</label>
-        <input type="text" id="name" placeholder="Enter your Name" >
+        <input name="name" type="text" id="name" placeholder="Enter your Name" >
         </td>
         
         <td>
-        <label for="city">Enter your phone number<label>
-        <input type="text" id="phno" placeholder="Ex 9555443765" size ="10">
+        <label for="phno">Enter your phone number<label>
+        <input name="phno" type="text" id="phno" placeholder="Ex 9555443765" size ="10">
         </td>
         </tr>
 
         <tr>
             <td>
                 <label for="address">Enter your Address</label>
-                <input type="text" id="address" placeholder="8 Sastri Nagar">
+                <input name="address"type="text" id="address" placeholder="8 Sastri Nagar">
             </td>
             <td>
                 <label for="city">Enter your city </label>
-                <input type="text" id="city" placeholder="Ex Chennai">
+                <input name="city" type="text" id="city" placeholder="Ex Chennai">
             </td>
             <td>
                 <label for="state">Enter your State </label>
-                <input type="text" id="state" placeholder="Ex Kerala">
+                <input type="text" id="state" placeholder="Ex Kerala" name="state">
             </td>
 
         </tr>
         <tr>
             <td>
                 Enter 6 digit pincode
-                <input type="text" id="pin" placeholder="Ex 600021" size="6" ><br>
+                <input type="text" id="pin" placeholder="Ex 600021" size="6" name="pin"><br>
             </td>
         </tr>
         <tr>
@@ -51,12 +51,12 @@
         <tr>
             <td>
 
-                <input type="radio" id="work" name="locationtype">
+                <input type="radio" id="work" name="locationtype" value="work">
                 <label for="work">Work (9AM-5PM)</label>
                 
             </td>
             <td>
-                <input type="radio" id="home" name="locationtype">
+                <input type="radio" id="home" name="locationtype" value="home">
                 <label for="home">Home(8AM-7PM)</label>
             </td>
         </tr>
@@ -67,16 +67,16 @@
         </tr>
         <tr>    
             <td>
-                <input type="radio" id="cash" name="payment">
+                <input type="radio" id="cash" name="payment" value="cod">
                 <label for="cash">Cash on delivery</label>
             
             </td>
             <td>
-                <input type="radio" id="credit" name="payment">
+                <input type="radio" id="credit" name="payment" value="card">
                 <label for="credit">Credit Card</label>
             </td>
             <td>
-                <input type="radio" id="net" name="payment">
+                <input type="radio" id="net" name="payment" value="netbank">
                 <label for="net">Net Banking</label>
             </td>
         </tr>
