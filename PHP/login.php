@@ -31,6 +31,7 @@ if(isset($_POST['enter']))
   include('config.php');
   $number=$_POST['number'];
   $pwd=$_POST['pwd'];
+  $_SESSION['number']=$number;
 
   $sql="select * from customer_info where number='$number' and password='$pwd'";
   $result=mysqli_query($con,$sql);
