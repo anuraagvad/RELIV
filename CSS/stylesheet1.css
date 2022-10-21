@@ -101,6 +101,7 @@ table
     padding:200px;
     border-radius: 20px;
     border:none;
+    transition: 0.3s;
 }
 
 .level1button2{
@@ -109,16 +110,26 @@ table
     padding:200px;
     border-radius:20px;
     border:none;
+    transition: 0.3s;
 }
 
 .level1button1:active{
     box-shadow: 5px 5px 5px rgba(0, 45, 112,0.45);
 }
-
+.level1button1:hover{
+    box-shadow: 5px 5px 5px rgba(0, 45, 112,0.45);
+    background-image:url("https://images.unsplash.com/photo-1561715276-a2d087060f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    cursor: pointer;
+}
 .level1button2:active{
     box-shadow: 5px 5px 5px rgba(3, 101, 0, 0.45);
 }
-
+.level1button2:hover{
+    box-shadow: 5px 5px 5px rgba(3, 101, 0, 0.45);
+    transition: all 0.3s ease-in-out;
+    background-image:url("https://images.unsplash.com/photo-1561503412-852800622772?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80");
+    cursor: pointer;
+}
 table.level1table{
     padding-top: 20px;   
 }
@@ -197,6 +208,7 @@ button.optionbat{
 
 .header_left{
     display: flex;
+    align-items: center;
 }
 
 .header_center{

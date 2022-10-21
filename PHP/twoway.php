@@ -2,7 +2,8 @@
     <!--20BCE1606 Vaddi Anuraag-->
 <html>
     <head>
-        <link rel="stylesheet" href="CSS/stylesheet1.css">
+        <link rel="stylesheet" href="../CSS/stylesheet1.css">
+        <link rel="stylesheet" href="../CSS/twoway.css">
         <title>Welcome</title>
         <style>
             body{
@@ -12,9 +13,19 @@
     </head>
     <body >
         <div class="header_inner">
-            <div class="header_left"><button>logout</button></div>
+            <div class="header_left"><button class="submit">logout</button></div>
             <div class="header_center"><h1>RELIV</h1></div>
-            <div class="header_right"><p align="right">Credits available:35  <img src="imgs/coin-3469.png"></p></div>
+            <?php
+                include('config.php');
+                session_start();
+                $number=$_SESSION['number'];
+                $sql="select coins from customer_info where number='$number'";
+                $coins=mysqli_query($con,$sql);
+                foreach($coins as $row)
+                {
+                    echo '<div class="header_right"><p align="right">Credits available:'.$row["coins"].'<img src="../imgs/coin-3469.png"></p></div>';  
+                } 
+            ?>
         </div>
         <table class="level1table">
             <tr>

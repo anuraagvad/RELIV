@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Login</title>
-        <link rel="stylesheet" href="reg.css">
+        <link rel="stylesheet" href="../CSS/stylesheet1.css">
     </head>
     <body>
         <h1>RELIV</h1>
@@ -39,7 +39,7 @@ if(isset($_POST['enter']))
   $count=mysqli_num_rows($result);
 
   if($count == 1){
-    header("Location: http://localhost/iwp/twoway.html");
+    header("Location: http://localhost/iwp/PHP/twoway.php");
     die();
   }
   else{
