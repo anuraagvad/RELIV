@@ -1,0 +1,42 @@
+div.headingblock{
+    flex:0 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+
+.signin{
+    color: #008d63;
+}
+
+.headinglinks{  
+    height: 3.5vw;
+    border:1px solid black;
+    align-items: center;    
+    border-radius: 4vw;
+    font-weight: 500;
+    font-family: 'Roboto Condensed', sans-serif;    
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 1px;
+    align-self: auto;
+    text-align: left;
+    margin-left: 20px;
+    padding:10px;
+    line-height: 0px;
+    text-transform:uppercase;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.headinglinks:hover{
+    background-color:#008d63;
+    color: aliceblue;
+}
+

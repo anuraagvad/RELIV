@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 h1{
     color: rgb(98, 98, 98);
     font-family: 'Roboto Condensed', sans-serif;
@@ -399,99 +400,4 @@ div.verticalmid{
 
 div.noseam{
     display: flex;
-}
-
-.product-card {
-    flex: 0 0 auto;
-    width: 250px;
-    height: 450px;
-    margin-right: 40px;
-  }
-
-  .product-card:hover .card-btn {
-    opacity: 1;
-  }
-
-  .product-image {
-    position: relative;
-    width: 100%;
-    height: 350px;
-    overflow: hidden;
-  }
-
-  .product-thumb {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius:20px ;
-  }
-
-  .card-btn {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px;
-    width: 90%;
-    text-transform: capitalize;
-    border: none;
-    outline: none;
-    background: #fff;
-    border-radius: 5px;
-    transition: 0.5s;
-    cursor: pointer;
-    opacity: 0;
-  }
-
-  .product-info {
-    width: 100%;
-    height: 100px;
-    padding-top: 10px;
-  }
-
-  .product-brand {
-    text-transform: uppercase;
-  }
-
-  .price {
-    font-weight: 900;
-    font-size: 20px;
-  }
-
-  .product {
-    position: relative;
-    overflow: hidden;
-    padding: 0px;
-  }
-  
-  .product-container {
-    padding-left: 5px;
-    display: flex;
-    
-    overflow-y: hidden;
-    scroll-behavior: smooth;
-  }
-  
-  .product-container::-webkit-scrollbar {
-    display: none;
-  }
-
-  .nxt-btn,
-.pre-btn {
-  border: none;
-  width: 10vw;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
-  cursor: pointer;
-  z-index: 8;
-}
-
-.nxt-btn {
-  left: 0;
-  transform: rotate(180deg);
 }

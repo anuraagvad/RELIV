@@ -13,7 +13,9 @@
     </head>
     <body >
         <div class="header_inner">
-            <div class="header_left"><button class="submit">logout</button></div>
+            <div class="header_left">
+                <a href="logoutscript.php">logout</a>
+            </div>
             <div class="header_center"><h1>RELIV</h1></div>
             <?php
                 include('config.php');
@@ -31,7 +33,7 @@
             <tr>
                 <div>
                     <td>
-                        <a href="http://localhost/iwp/shopping.html"><button class="level1button1"><p style="font-size:30px; color: white;">SHOP</p></button></a>
+                        <a href="http://localhost/iwp/PHP/shopping.php"><button class="level1button1"><p style="font-size:30px; color: white;">SHOP</p></button></a>
                     </td>
                     
                     <td>

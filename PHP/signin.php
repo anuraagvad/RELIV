@@ -3,9 +3,12 @@
     <head>
         <title>Sign in</title>
         <link rel="stylesheet" href="reg.css">
+        <link rel="stylesheet" href="../CSS/secondbatch.css">
     </head>
     <body>
+    <a href="http://localhost/iwp/">
       <h1>RELIV</h1>
+    </a>
         <div id="signin-page">
             <div class="form">
               <div>
@@ -15,7 +18,7 @@
                 </div>
               </div>
                 <form action="signin.php" method="post" name="form">
-                    <input type="text" placeholder="name" name="name"><br><br>
+                    <input type="text" placeholder="name" name="username"><br><br>
                     <input type="text" placeholder="mobile number" name="number" required><br><br>
                     <input type="text" placeholder="emailID" name="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><br><br>
                     <input type="password" placeholder="password" name="password"><br><br>
@@ -31,10 +34,10 @@
 if(isset($_POST['create']))
 {
   include('config.php');
-  $number=$_POST[number];
-  $name=$_POST[name];
-  $mail=$_POST[mail];
-  $pwd=$_POST[password];
+  $number=$_POST['number'];
+  $name=$_POST['username'];
+  $mail=$_POST['mail'];
+  $pwd=$_POST['password'];
 
   $sql="insert into customer_info (number,name,mail,password) values ('$number', '$name','$mail','$pwd')";
 
