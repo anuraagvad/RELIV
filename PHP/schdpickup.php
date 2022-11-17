@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Shipping Details</title>
+    <title>Pickup Details</title>
     <link rel="stylesheet" href="../CSS/stylesheet1.css">
 </head>
 <body> 
-<h1 >Enter Shipping Details</h1>     
+<h1 >Enter Pickup Details</h1>     
 <div class="bgcolor">
     <form action="schdpickup.php" method="post">
     <div>
@@ -108,7 +108,7 @@
         $name=$_POST['name'];
         $sql="INSERT INTO pickuplogs VALUES ('$number','$address','$pin','$city','$deltype','$pay','$state','$orderdescription','$name')";
         $insert=mysqli_query($con,$sql);
-        header("Location: http://localhost/iwp/twoway.html");
+        header("Location: http://localhost/iwp/PHP/twoway.php");
         exit;
     }
 ?>

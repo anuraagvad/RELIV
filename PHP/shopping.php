@@ -13,7 +13,15 @@
         </style>
     </head>
     <body>
-        <h1 class="pageheading">Spend your rewards</h1>
+        
+            <div class="headingblock">
+                <h1 class="pageheading">Spend your rewards</h1>
+                <nav>
+                    <a href="http://localhost/iwp/PHP/shoppingcart.php" class="headinglinks">Your Cart</a>
+                </nav>
+            </div>
+            
+        
         <div class="noseam">
             <div class="inlineseam">
                 <img src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80" height="600px">
